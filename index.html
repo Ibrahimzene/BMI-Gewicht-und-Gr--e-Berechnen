@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Seite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <img src="logo.png" alt="logo">
+        <h1>BMI Gewicht und Größe Berechnen</h1>
+        <!-- Gewicht -->
+        <div>
+            <h3>Gewicht</h3>
+            <input type="text" id="weight" placeholder="Gewicht in kg">
+        </div>
+        <!-- Größe -->
+        <div>
+            <h3>Größe</h3>
+            <input type="text" id="Grosse" placeholder="Größe in cm">
+        </div>
+        <!-- Button -->
+        <button id="submit-btn">Rechnen</button>
+
+        <!-- BMI -->
+        <div>
+            <h4 id="bmi">BMI Ergebnis...</h4>
+            <h3 id="bmi-category"></h3>
+        </div>
+    </div>
+    <script src="bmi.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+
+  background: radial-gradient(
+    ellipse at center,
+    #ce5937 0%,
+    #1c6ea4 0%,
+    #c59237 100%
+  );
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#container {
+  background: radial-gradient(
+    ellipse at center,
+    #ce5937 0%,
+    #1c6ea4 0%,
+    #c59237 100%
+  );
+
+  text-align: center;
+  border: 2px solid yellow;
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 2.5rem;
+  color: white;
+}
+
+#submit-btn {
+  margin: 30px;
+  padding: 22px;
+  border-radius: 10px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+
+  background: radial-gradient(
+    ellipse at center,
+    #ce5937 0%,
+    #1c6ea4 0%,
+    #c59237 100%
+  );
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 70%;
+  background: radial-gradient(
+    ellipse at center,
+    #ce5937 0%,
+    #1c6ea4 0%,
+    #c59237 100%
+  );
+}
+
+#weight, #Grosse{
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid yellow;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
